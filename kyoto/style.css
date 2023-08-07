@@ -1,0 +1,231 @@
+@import url(../style.css);
+
+form {
+    position: relative;
+}
+
+.main-content img {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: -2px 2px #bebebe;
+}
+
+article {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(46, 98, 107);
+}
+
+article h2 {
+    font-family: 'Cabin Sketch', cursive;
+    color: rgb(149, 208, 219);
+    font-size: xx-large;
+    margin-bottom: 0.3em;
+    text-shadow: -1px 1px #bebebe;
+}
+
+article h3 {
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: 900;
+}
+
+article h3 + p {
+    margin-top: 0.5em;
+}
+
+article p {
+    text-align: justify;
+}
+
+article img {
+    border-radius: 3px;
+    box-shadow: -2px 2px #bebebe;
+}
+
+.main-content {
+    margin: 32px 32px 32px 48px;
+}
+
+.article-info {
+    display: flex;
+}
+
+.article-info time {
+    margin-left: 1em;
+    font-size: x-small;
+    color: rgb(154, 175, 162);
+}
+
+.article-info-share {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 3;
+}
+
+.article-info-share p {
+    margin: 0;
+    color: rgb(154, 175, 162);
+    font-size: small;
+    margin-right: 0.5em;   
+}
+
+.article-info-share i {
+    margin: 0 0.2em;
+    color: rgb(46, 98, 107);
+}
+
+.article-info-share a:last-child {
+    margin-right: 1em;
+}
+
+.fa-square-facebook:hover {
+    color: rgb(64, 138, 153) !important;
+}
+
+.fa-square-twitter:hover {
+    color: rgb(64, 138, 153) !important;
+}
+
+.fa-square-instagram:hover {
+    color: rgb(64, 138, 153) !important;
+}
+
+.fa-square-pinterest:hover {
+    color: rgb(64, 138, 153) !important;
+}
+
+.comment textarea {
+    margin: 2em 0;
+    padding: 1em;
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 208, 219);
+    box-shadow: 1px 1px 1px rgb(64, 138, 153);
+    box-sizing: border-box;
+    font-family: inherit;
+    color: inherit;
+    font-size: 0.8em;
+    font-weight: bold;
+    outline-color: rgb(64, 138, 153);
+}
+
+.comment button {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(64, 138, 153);
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em 1em;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: small;
+}
+
+.comment button:hover {
+    background-color: rgb(149, 208, 219);
+    cursor: pointer;
+}
+
+.comment button:active {
+    background-color: rgb(136, 190, 199);
+}
+
+.comment button i {
+    margin-right: 0.7em;
+}
+
+#blossoms figure:nth-of-type(1) {
+    margin: 0;
+    padding: 0 3em 0 3em;
+}
+
+#zen-gardens figure:nth-of-type(1) {
+    margin: 0 1em 1em 0;
+    float: left;
+    width: 50%;
+}
+
+#zen-gardens figure:nth-of-type(2) {
+    margin: 0 0 1em 1em;
+    float: right;
+    width: 50%;
+}
+
+#arashiyama figure:nth-of-type(1) {
+    margin: 0 1em 1em 0;
+    float: left;
+    width: 60%;
+}
+
+#geisha figure:nth-of-type(1) {
+    width: 50%;
+    margin: 0 0 1em 1em;
+    float: right;
+}
+
+#geisha figure:nth-of-type(2) {
+    width: 50%;
+    margin: 0 1em 1em 0;
+    float: left;
+}
+
+#nishiki figure:nth-of-type(1) {
+    width: 50%;
+    margin: 0 0 1em 1em;
+    float: right;
+}
+
+#kiyomizu figure:nth-of-type(1) {
+    width: 50%;
+    margin: 0 0 1em 1em;
+    float: right;
+}
+
+#kiyomizu figure:nth-of-type(2) {
+    width: 40%;
+    margin: 0 1em 1em 0;
+    float: left;
+}
+
+#arts figure:nth-of-type(1) {
+    width: 50%;
+    margin: 0 0 1em 1em;
+    float: right;
+}
+
+#arts figure:nth-of-type(2) {
+    width: 45%;
+    margin: 0 1em 1em 0;
+    float: left;
+}
+
+#tea figure:nth-of-type(1) {
+    margin: 0;
+    padding: 0 3em 0 3em;
+}
+
+#tea figure:nth-of-type(2) {
+    width: 40%;
+    margin: 0 1em 1em 0;
+    float: left;
+}
+
+#fushimi figure:nth-of-type(1) {
+    width: 50%;
+    margin: 0 1em 1em 0;
+    float: left;
+}
+
+figcaption {
+    font-size: 0.75em;
+    color: rgb(46, 107, 66);
+}
+
+figure img {
+    width: 100%;
+}
